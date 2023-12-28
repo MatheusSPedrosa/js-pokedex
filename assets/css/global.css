@@ -1,0 +1,26 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e6e8f0;
+}
+
+.pokedex {
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 992px) {
+    .pokedex {
+        max-width: 1920px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+.pokedex h1 {
+    margin:0;
+}
